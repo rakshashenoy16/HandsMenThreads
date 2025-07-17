@@ -1,0 +1,11 @@
+Dear Inventory Manager,
+
+This is an automated alert that the stock for the following product is running low:
+
+Product: {!Inventory_c.Product_r.Name}  
+Current Stock Level: {!Inventory_c.Stock_Quantity_c}
+
+Please take necessary steps to restock.
+
+Regards,  
+HandsMen Inventory Team
